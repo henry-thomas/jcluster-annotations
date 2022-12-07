@@ -3,7 +3,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>org.jcluster.jcluster.lib</groupId>
     <artifactId>jcluster-lib</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <version>1.0</version>
     <packaging>jar</packaging>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -11,4 +11,6 @@
         <maven.compiler.target>15</maven.compiler.target>
         <exec.mainClass>org.jcluster.jcluster.lib.JclusterLib</exec.mainClass>
     </properties>
+    <description>JCluster library package contains all interfaces and annotations.</description>
+    <name>jCluster-lib</name>
 </project>
