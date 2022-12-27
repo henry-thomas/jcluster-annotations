@@ -18,5 +18,9 @@ import java.lang.annotation.Target;
 public @interface JcTimeout {
     //This will help check which apps to send to
 
+    /**
+     *
+     * @return timeout in milliseconds
+     */
     public int timeout();
 }

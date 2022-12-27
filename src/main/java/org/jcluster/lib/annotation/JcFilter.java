@@ -12,12 +12,17 @@ import java.lang.annotation.Target;
 /**
  *
  * @author henry
+ *
  */
 @Target({ElementType.PARAMETER})
 @Retention(RetentionPolicy.RUNTIME)
 public @interface JcFilter {
 
     //Use this filter to get a parameter from a distributed map
+    /**
+     *
+     * @return filter name to be used
+     */
     public String filterName() default "";
 
 }
