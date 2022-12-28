@@ -23,6 +23,6 @@ public @interface JcFilter {
      *
      * @return filter name to be used
      */
-    public String filterName() default "";
+    public String filterName();
 
 }
