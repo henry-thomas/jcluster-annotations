@@ -18,4 +18,5 @@ import java.lang.annotation.Target;
 public @interface JcRemote {
     //This will help check which apps to send to
     public String appName() default "";
+    public String topic() default "";
 }
